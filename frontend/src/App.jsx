@@ -18,7 +18,7 @@ import "aos/dist/aos.css";
 import TermsOfService from "./pages/TermsOfService";
 
 import AboutUs from "./pages/AboutUs";
-import Features from "./pages/Features";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const App = () => {
   useEffect(() => {
@@ -46,6 +46,7 @@ const App = () => {
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route
               path="/dashboard/carbon-footprint-calculator"
               element={<CarbonFootprintCalculator />}
