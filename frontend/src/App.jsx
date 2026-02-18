@@ -16,6 +16,7 @@ import AOS from "aos";
 import Feedback from "./pages/Feedback";
 import "aos/dist/aos.css";
 import TermsOfService from "./pages/TermsOfService";
+
 import AboutUs from "./pages/AboutUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
@@ -50,6 +51,7 @@ const App = () => {
               path="/dashboard/carbon-footprint-calculator"
               element={<CarbonFootprintCalculator />}
             />
+            <Route path="/features" element={<Features />} />
           </Routes>
         </BrowserRouter>
       </AuthProvider>
